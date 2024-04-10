@@ -7,7 +7,7 @@
     </div>
     <div class="list_containet">
       <div class="list_items">
-        <div v-if="insertData.length == 1">1 element</div>
+        <div v-if="insertData.length !== ''">{{ insertData.length }} elements</div>
         <TodoItem
           v-for="(el, index) in insertData"
           :delateData="delateData"
