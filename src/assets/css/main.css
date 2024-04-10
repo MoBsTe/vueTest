@@ -101,8 +101,7 @@ button:hover {
   margin-bottom: 10px;
   position: relative;
 }
-
-.closet {
+.list_item .closet {
   position: absolute;
   top: 19px;
   right: 25px;
@@ -111,7 +110,6 @@ button:hover {
   transition: 0.3s;
   color: black;
 }
-
-.closet:hover {
+.list_item .closet:hover {
   font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
