@@ -2,7 +2,13 @@
   <div class="containet">
     <h2>ToDoList</h2>
     <div class="tte">
-      <input v-model="value" class="input_text" type="text" placeholder="Title..." />
+      <input
+        v-model="value"
+        class="input_text"
+        type="text"
+        placeholder="Title..."
+        @keyup.enter="sendData"
+      />
       <button @click="sendData()">Add</button>
     </div>
     <div class="list_containet">
